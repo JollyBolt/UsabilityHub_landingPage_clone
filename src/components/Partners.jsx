@@ -39,7 +39,7 @@ const Partners = () => {
             {companies.map((comp)=>{
                 return(
                     <li key={comp.name} className='list-none'>
-                        <img  className='h-12' src={comp.img}/>
+                        <img  className='h-12 m-5 lg:m-0' src={comp.img}/>
                     </li>
                 )
             })}
