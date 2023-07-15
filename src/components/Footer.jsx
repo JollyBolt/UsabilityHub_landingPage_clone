@@ -56,10 +56,10 @@ const Footer = () => {
       <div className="bg-[#b9cde4]">
         <div className="flex flex-col md:flex-row justify-between max-w-[767px] md:m-auto mx-[3%] py-5 text-gray-600">
           <div className="flex justify-center ">
-            <ul className="flex flex-col  sm:flex-row text-center">
-              <li className="mb-3 sm:mr-5">Privacy policy</li>
-              <li className="mb-3 sm:mr-5">Terms & conditions</li>
-              <li className="mb-3 sm:mr-5">Security Information</li>
+            <ul className="flex flex-col  sm:flex-row text-center items-center justify-center">
+              <li className="mb-3 sm:mb-0 sm:mr-5">Privacy policy</li>
+              <li className="mb-3 sm:mb-0 sm:mr-5">Terms & conditions</li>
+              <li className="mb-3 sm:mb-0 sm:mr-5">Security Information</li>
             </ul>
           </div>
           <div className="flex justify-center">
